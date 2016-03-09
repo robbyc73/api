@@ -1,0 +1,13 @@
+api_server:
+    resource: "@ApiServerBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+fos_oauth_server_token:
+    resource: "@FOSOAuthServerBundle/Resources/config/routing/token.xml"
+
+api_login_check:
+    path: /api/login_check
+#app:
+ #   resource: "@AppBundle/Controller/"
+  #  type:     annotation
